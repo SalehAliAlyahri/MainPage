@@ -1,0 +1,52 @@
+body{
+    /*background: url('tim-j-EJ4qfFp1g8Q-unsplash-2.jpg') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+#digital-clock{
+
+    text-align :center;
+    margin-top: 12%;
+    font-size: 50px;
+    }
+    #greet{
+        margin-top: 10px;
+    }
+
+
+    .search {
+        width: 370px;
+        height: 40px;
+        margin: 50px auto;
+        margin-top: 10px;
+        background: #444;
+        background: rgba(126, 110, 110, 0.3);
+        border: 2px solid;
+        border-radius:  7px;
+
+        
+    }
+    input {
+        width: 370px;
+        padding: 10px 5px;
+        float: left;
+        color: #ccc;
+        border: 0;
+        background: transparent;
+        outline-width: 0;
+        
+
+    }
+   
+
+
+  
