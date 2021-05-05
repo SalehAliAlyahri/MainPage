@@ -4,7 +4,7 @@ function greet() {
 
     var greet;
 
-    if (hrs < 17){
+    if (hrs < 12){
         greet = 'Good Morning';
         pic = document.body.style.backgroundImage = "url('joppe-spaa-yUY4rEElc6E-unsplash.jpg')";
     }
