@@ -8,6 +8,8 @@ body{
     -o-background-size: cover;
     background-size: cover;
     color: white;
+    margin-top: 20%;
+
 }
 
 p{
@@ -18,7 +20,6 @@ p{
 #digital-clock{
 
     text-align :center;
-    margin-top: 14%;
     font-size: 50px;
     }
     #greet{
@@ -49,7 +50,17 @@ p{
         
 
     }
-   
 
+    @media (max-width:320px)  { body{ margin-top: 40%; } }
+    @media (max-width:480px)  { body{ margin-top: 40%; } }
+    @media (max-width:600px)  { body{ margin-top: 40%; } }
+    @media (max-width:801px)  { body{ margin-top: 60%; } }
+    @media (max-width:1025px) { body{ margin-top: 60%; }}
+    @media (max-width:1281px) { body{ margin-top: 40%; }}
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        body{ margin-top: 90%; }
+  }
 
-  
